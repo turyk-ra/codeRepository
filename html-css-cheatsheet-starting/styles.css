@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(220, 220, 220);
+    font-family: 'Kanit', sans-serif;
+}
+
+
+header,h2{
+    text-transform: uppercase;
+    font: bold;
+}
+
+h2{
+    color: rgb(153, 50, 204);
+}
+
+thead{
+    background-color:rgb(176, 139, 209);
+    text-transform: capitalize;
+    height: 40px;
+}
+
+table{
+    border: 1px solid rgb(153, 50, 204);
+    margin: 0 auto;
+    width: 750px;
+}
+
+#tag{
+    background-color:rgb(250, 235, 215);
+    font-size: 200;
+    font-style: italic;
+
+}
+
+td{
+    border-top: 1px solid rgb(153, 50, 204);
+    padding: 0 10px;
+}
+
+thead,#tag,header,h2{
+    text-align: center;
+}
