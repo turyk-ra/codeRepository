@@ -1,0 +1,48 @@
+
+#font-1{
+    font-family: "Source Code Pro";
+}
+
+#font-2{
+    font-family: "Amatic SC";
+}
+
+#font-3{
+    font-family: "Yanone_Kaffeesatz";
+}
+
+.font-panel ul{
+    font-size: 16px;
+    padding: 0;
+}
+
+.font-panel li{
+    list-style-type: none;
+}
+
+.font-panel{
+    min-height: 170px;
+    min-width: 500px;
+}
+
+.font-panel h3{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.font-bold-example{
+    font-weight: 700;
+}
+
+.font-regular-example{
+    font-weight: 400;
+}
+
+.font-italic-example{
+    font-style: italic;
+}
+
+
+

@@ -1,0 +1,50 @@
+.color-panel{
+    width: 30%;
+    min-height: 100px;
+}
+
+.color-panel:hover{
+    width: 35%;
+    margin: 20px;
+    transition: .4s;
+}
+
+#color-1,#color-2{
+    color:azure;
+}
+
+#color-3,#color-4{
+    color:black;
+}
+
+#color-1{                   
+    background-color: #2d5dcc;
+}
+
+#color-1:hover{
+    box-shadow: 0 0 10px 10px #4e74cc;
+}
+
+#color-2{                  
+    background-color: #d957d9;
+}
+
+#color-2:hover{
+    box-shadow: 0 0 10px 10px #e276e2;
+}
+
+#color-3{                   
+    background-color: #4fe0b0;
+}
+
+#color-3:hover{
+    box-shadow: 0 0 10px 10px #82ecc9;
+}
+
+#color-4{                  
+    background-color: #efd9ca;
+}
+
+#color-4:hover{
+    box-shadow: 0 0 10px 10px #ece7e3;
+}
