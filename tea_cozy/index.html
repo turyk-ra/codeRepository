@@ -5,50 +5,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/normalize.css">
     <link rel="stylesheet" href="./resources/css/style.css">
     <title>Tea Cozy</title>
 </head>
 
 <body>
     <header class="header">
-        <figure>
-            <img src="./resources/images/img-tea-cozy-logo.png" alt="">
-        </figure>
-        <ul>
-            <li><a href="">mission</a></li>
-            <li><a href="">featured tea</a></li>
-            <li><a href="">locations</a></li>
-        </ul>
+        <div class="container headers">
+            <nav class="nav">
+                <a class="logo"><img class="logo-img" src="resources/images/img-tea-cozy-logo.png" alt=""></a>
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="#">mission</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">featured tea</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">locations</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section class="mission">
-            <h2>our mission</h2>
-            <h4>handpicked, artisanally curated, free range, sustainable, small batch, fair trade, organic tea</h4>
-        </section>
-        <section>
-            <h2>tea of the month</h2>
-            <h4>what steeping at the tea cozy?</h4>
-        </section>
-        <section>
-            <h2>locations</h2>
-            <article>
-                <h3>downtown</h3>
+    <main class="main">
+        <div class="container mission">
+            <article class="missions">
+                <h2>our mission</h2>
+                <h4>handpicked, artisanally curated, free range, sustainable, small batch,fair trade, organic tea</h4>
             </article>
-            <article>
-                <h3>east bayside</h3>
+        </div>
+        <div class="container month">
+            <article class="tea-month">
+                <h2>tea of the month</h2>
+                <h4>what's sleeping at the cozy tea</h4>
             </article>
-            <article>
-                <h3>oakdale</h3>
-            </article>
-        </section>
+            <div class="tea-types">
+                <div class="tea-type-items">
+                    <img src="./resources/images/img-berryblitz.jpg" alt="">
+                    <h4>fall berry blitz tea</h4>
+                </div>
+                <div class="tea-type-items">
+                    <img src="./resources/images/img-berryblitz.jpg" alt="">
+                    <h4>fall berry blitz tea</h4>
+                </div>
+                <div class="tea-type-items">
+                    <img src="./resources/images/img-berryblitz.jpg" alt="">
+                    <h4>fall berry blitz tea</h4>
+                </div>
+                <div class="tea-type-items">
+                    <img src="./resources/images/img-berryblitz.jpg" alt="">
+                    <h4>fall berry blitz tea</h4>
+                </div>
+                <div class="tea-type-items">
+                    <img src="./resources/images/img-berryblitz.jpg" alt="">
+                    <h4>fall berry blitz tea</h4>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer>
-        <h2>the tea cozy</h2>
-        <h5>contact@theteacozy.com</h5>
-        <h5>917-555-8904</h5>
-        <h5>copyright the tea cozy 2017</h5>
-    </footer>
-
 </body>
 
 </html>

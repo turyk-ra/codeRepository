@@ -1,29 +1,92 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica, sans-serif;
-    font-size: 22px;
-    color: seashell;
-    background-color: black;
-    opacity: 0.9;
+a{
+    color: inherit;
 }
 
-header{
-    max-height: 69px;
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: 'Helvetica';
+    color:#fff5ee;
+    background-color: #000;
+}
+
+h2{
+    margin-bottom: 0;
+}
+
+.header{
+    padding: 10px 0 10px;
+    border-bottom: 2px solid #fff5ee;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.headers{
+    max-width: 1500px;
+}
+
+.mission{
+    padding: 0;
+    display: flex;
+    align-items:center;
+    height: 700px;
+    max-width: 1200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/tea_cozy/resources/images/img-mission-background.jpg);
+}
+
+.nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-figure{
-    margin: 10px;
+.menu{
+    display: flex;
 }
 
-img{
+.menu-item{
+    padding-left: 30px;
+}
+
+.logo-img{
     max-height: 50px;
 }
 
-ul{
+.missions{
     display: flex;
-    list-style-type: none;
+    flex-direction: column;
+    align-items:center;
+    background-color: #000000b7;
+    width: 1200px;
+}
+
+.month{
+    max-width: 1000px;
+}
+
+.tea-month{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+
+.tea-types{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    max-width: 300px;
+    max-height: 200px;
 }
